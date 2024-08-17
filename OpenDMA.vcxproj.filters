@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\MemoryManager">
+      <UniqueIdentifier>{c0f9deb1-a2f3-41e3-b468-79faf55103ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MemoryManager\RTCore64">
+      <UniqueIdentifier>{9f850d89-58e3-4946-9472-a22dd713445a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MemoryManager\RWDrw">
+      <UniqueIdentifier>{812f4b54-ebfc-49db-bca9-827de11340da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SDK">
+      <UniqueIdentifier>{16bf0525-d7f0-407b-85db-ff76ce933e83}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="RTCore64.h">
+      <Filter>Source Files\MemoryManager\RTCore64</Filter>
+    </ClInclude>
+    <ClInclude Include="RWDrv.h">
+      <Filter>Source Files\MemoryManager\RWDrw</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryManager.h">
+      <Filter>Source Files\MemoryManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>Source Files\SDK</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+    <None Include=".gitignore" />
+  </ItemGroup>
+</Project>
